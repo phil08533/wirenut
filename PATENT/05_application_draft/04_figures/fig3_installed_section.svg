@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" font-family="Arial" font-size="15" fill="none" stroke="black" stroke-width="1.5">
+  <text x="180" y="28" fill="black" stroke="none" font-size="18">FIG. 3</text>
+
+  <defs>
+    <pattern id="hatch3" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="black" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- ===== Shell 22 section (as FIG. 2) ===== -->
+  <path d="M185 60 L165 210 L173 210 L192 78 Z" fill="url(#hatch3)"/>
+  <path d="M215 60 L235 210 L227 210 L208 78 Z" fill="url(#hatch3)"/>
+  <path d="M185 60 Q200 50 215 60 L208 78 Q200 72 192 78 Z" fill="url(#hatch3)"/>
+  <rect x="160" y="210" width="12" height="26" fill="url(#hatch3)"/>
+  <rect x="228" y="210" width="12" height="26" fill="url(#hatch3)"/>
+
+  <!-- twisted conductors inside cavity (crossing lines) -->
+  <path d="M194 210 L204 180 L195 150 L205 120 L198 95" stroke-width="1"/>
+  <path d="M206 210 L196 180 L205 150 L195 120 L202 95" stroke-width="1"/>
+  <!-- spring engagement dashes -->
+  <path d="M193 100 L207 108 M192 124 L208 132 M191 148 L209 156 M190 172 L210 180" stroke-width="0.7" stroke-dasharray="3 2"/>
+
+  <!-- ===== Recovered sleeve: tack zone + tapered recovery onto wires ===== -->
+  <path d="M154 206 L154 240 L157 240 L157 206 Z" fill="black"/>
+  <path d="M243 206 L243 240 L246 240 L246 206 Z" fill="black"/>
+  <!-- recovered profile tapering from skirt to bundle -->
+  <path d="M154 240 C158 280 172 300 178 320 L178 430"/>
+  <path d="M246 240 C242 280 228 300 222 320 L222 430"/>
+  <path d="M160 242 C165 278 178 298 184 318 L184 428" stroke-width="1"/>
+  <path d="M240 242 C235 278 222 298 216 318 L216 428" stroke-width="1"/>
+  <!-- sealant fillet 62 at mouth (solid black wedges inside) -->
+  <path d="M172 238 C180 258 186 268 190 280 L184 300 C180 280 172 258 166 246 Z" fill="black" stroke="none"/>
+  <path d="M228 238 C220 258 214 268 210 280 L216 300 C220 280 228 258 234 246 Z" fill="black" stroke="none"/>
+
+  <!-- conductors exiting -->
+  <line x1="188" y1="300" x2="188" y2="520"/>
+  <line x1="196" y1="300" x2="196" y2="520"/>
+  <line x1="204" y1="300" x2="204" y2="520"/>
+  <line x1="212" y1="300" x2="212" y2="520"/>
+
+  <!-- centerline -->
+  <line x1="200" y1="45" x2="200" y2="540" stroke-dasharray="12 4 2 4" stroke-width="0.7"/>
+
+  <!-- seal region 60 bracket -->
+  <path d="M300 250 L312 250 L312 424 L300 424" stroke-width="1"/>
+  <text x="320" y="342" fill="black" stroke="none">60</text>
+
+  <!-- labels -->
+  <text x="310" y="90" fill="black" stroke="none">20</text>
+  <line x1="306" y1="86" x2="226" y2="96"/>
+  <text x="96" y="222" fill="black" stroke="none">42</text>
+  <line x1="114" y1="218" x2="153" y2="222"/>
+  <text x="88" y="300" fill="black" stroke="none">44</text>
+  <line x1="106" y1="296" x2="168" y2="292"/>
+  <text x="96" y="270" fill="black" stroke="none">62</text>
+  <line x1="112" y1="266" x2="170" y2="252"/>
+  <text x="310" y="470" fill="black" stroke="none">50</text>
+  <line x1="306" y1="466" x2="214" y2="470"/>
+  <text x="88" y="410" fill="black" stroke="none">40</text>
+  <line x1="106" y1="406" x2="177" y2="404"/>
+</svg>

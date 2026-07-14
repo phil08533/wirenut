@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520" font-family="Arial" font-size="15" fill="none" stroke="black" stroke-width="1.5">
+  <text x="180" y="28" fill="black" stroke="none" font-size="18">FIG. 7</text>
+
+  <defs>
+    <pattern id="hatch7" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="black" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- connector section -->
+  <path d="M185 60 L165 210 L173 210 L192 78 Z" fill="url(#hatch7)"/>
+  <path d="M215 60 L235 210 L227 210 L208 78 Z" fill="url(#hatch7)"/>
+  <path d="M185 60 Q200 50 215 60 L208 78 Q200 72 192 78 Z" fill="url(#hatch7)"/>
+  <rect x="160" y="210" width="12" height="26" fill="url(#hatch7)"/>
+  <rect x="228" y="210" width="12" height="26" fill="url(#hatch7)"/>
+
+  <!-- stepped sleeve 100: small-dia proximal region pre-formed to skirt dia, step, large bell -->
+  <!-- proximal region on skirt -->
+  <path d="M152 200 L152 250 L157 250 L157 200 Z" stroke-width="2"/>
+  <path d="M248 200 L248 250 L243 250 L243 200 Z" stroke-width="2"/>
+  <!-- step shoulder -->
+  <line x1="152" y1="250" x2="122" y2="266"/>
+  <line x1="248" y1="250" x2="278" y2="266"/>
+  <!-- distal bell (larger dia) -->
+  <line x1="122" y1="266" x2="122" y2="420"/>
+  <line x1="278" y1="266" x2="278" y2="420"/>
+  <line x1="129" y1="270" x2="129" y2="416" stroke-dasharray="5 3" stroke-width="1"/>
+  <line x1="271" y1="270" x2="271" y2="416" stroke-dasharray="5 3" stroke-width="1"/>
+
+  <!-- centerline -->
+  <line x1="200" y1="45" x2="200" y2="440" stroke-dasharray="12 4 2 4" stroke-width="0.7"/>
+
+  <!-- diameter annotations -->
+  <line x1="157" y1="230" x2="243" y2="230" stroke-width="0.7"/>
+  <path d="M157 230 l7 -3 v6 z" fill="black" stroke="none"/>
+  <path d="M243 230 l-7 -3 v6 z" fill="black" stroke="none"/>
+  <line x1="129" y1="390" x2="271" y2="390" stroke-width="0.7"/>
+  <path d="M129 390 l7 -3 v6 z" fill="black" stroke="none"/>
+  <path d="M271 390 l-7 -3 v6 z" fill="black" stroke="none"/>
+
+  <!-- labels -->
+  <text x="310" y="90" fill="black" stroke="none">20</text>
+  <line x1="306" y1="86" x2="226" y2="96"/>
+  <text x="310" y="226" fill="black" stroke="none">100</text>
+  <line x1="306" y1="222" x2="249" y2="222"/>
+  <text x="86" y="262" fill="black" stroke="none">step</text>
+  <line x1="112" y1="258" x2="138" y2="258" stroke-width="0.8"/>
+  <text x="310" y="330" fill="black" stroke="none">44</text>
+  <line x1="306" y1="326" x2="279" y2="330"/>
+  <text x="86" y="330" fill="black" stroke="none">46</text>
+  <line x1="104" y1="326" x2="128" y2="330"/>
+</svg>

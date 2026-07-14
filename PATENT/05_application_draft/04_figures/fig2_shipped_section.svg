@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" font-family="Arial" font-size="15" fill="none" stroke="black" stroke-width="1.5">
+  <text x="180" y="28" fill="black" stroke="none" font-size="18">FIG. 2</text>
+
+  <defs>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="black" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- ===== Shell 22 longitudinal section ===== -->
+  <!-- left wall: outer cone + inner cavity -->
+  <path d="M185 60 L165 210 L173 210 L192 78 Z" fill="url(#hatch)"/>
+  <path d="M215 60 L235 210 L227 210 L208 78 Z" fill="url(#hatch)"/>
+  <!-- closed tip -->
+  <path d="M185 60 Q200 50 215 60 L208 78 Q200 72 192 78 Z" fill="url(#hatch)"/>
+  <!-- skirt band 30 (cylindrical, section walls) -->
+  <rect x="160" y="210" width="12" height="26" fill="url(#hatch)"/>
+  <rect x="228" y="210" width="12" height="26" fill="url(#hatch)"/>
+  <line x1="165" y1="210" x2="160" y2="210"/>
+  <line x1="235" y1="210" x2="240" y2="210"/>
+  <!-- grip wings 32 (behind section plane, phantom) -->
+  <path d="M170 100 L152 106 L158 150 L174 146" stroke-dasharray="4 3" stroke-width="1"/>
+  <path d="M230 100 L248 106 L242 150 L226 146" stroke-dasharray="4 3" stroke-width="1"/>
+  <!-- cavity 26 (tapered void) + spring 28 -->
+  <path d="M192 78 Q200 72 208 78" stroke-width="1"/>
+  <path d="M195 90 L205 96 L194 108 L206 116 L193 128 L207 138 L192 150 L208 160 L191 172 L209 184 L190 198 L210 210" stroke-width="1"/>
+  <!-- open end 24 -->
+  <line x1="172" y1="236" x2="228" y2="236" stroke-width="1"/>
+
+  <!-- ===== Sleeve, first portion 42 tacked on skirt ===== -->
+  <path d="M154 206 L154 240 L157 240 L157 206 Z" fill="black"/>
+  <path d="M243 206 L243 240 L246 240 L246 206 Z" fill="black"/>
+  <!-- transition flare to bell -->
+  <path d="M154 240 L128 268 L128 420"/>
+  <path d="M246 240 L272 268 L272 420"/>
+  <!-- second portion 44 walls -->
+  <path d="M134 268 L160 242 L163 244 L138 270 L138 418 L134 418 Z" stroke-width="1"/>
+  <path d="M266 268 L240 242 L237 244 L262 270 L262 418 L266 418 Z" stroke-width="1"/>
+  <!-- sealant lining 46 (dashed inside bell) -->
+  <line x1="141" y1="272" x2="141" y2="416" stroke-dasharray="5 3" stroke-width="1"/>
+  <line x1="259" y1="272" x2="259" y2="416" stroke-dasharray="5 3" stroke-width="1"/>
+  <!-- distal end 48 -->
+  <line x1="128" y1="420" x2="138" y2="420"/>
+  <line x1="262" y1="420" x2="272" y2="420"/>
+
+  <!-- centerline -->
+  <line x1="200" y1="45" x2="200" y2="440" stroke-dasharray="12 4 2 4" stroke-width="0.7"/>
+
+  <!-- ===== labels ===== -->
+  <text x="310" y="80" fill="black" stroke="none">22</text>
+  <line x1="306" y1="76" x2="222" y2="86"/>
+  <text x="310" y="130" fill="black" stroke="none">26</text>
+  <line x1="306" y1="126" x2="204" y2="130"/>
+  <text x="100" y="130" fill="black" stroke="none">32</text>
+  <line x1="118" y1="126" x2="155" y2="126"/>
+  <text x="310" y="170" fill="black" stroke="none">28</text>
+  <line x1="306" y1="166" x2="206" y2="162"/>
+  <text x="96" y="222" fill="black" stroke="none">30</text>
+  <line x1="114" y1="218" x2="160" y2="220"/>
+  <text x="310" y="226" fill="black" stroke="none">42</text>
+  <line x1="306" y1="222" x2="247" y2="222"/>
+  <text x="310" y="250" fill="black" stroke="none">24</text>
+  <line x1="306" y1="246" x2="229" y2="238"/>
+  <text x="310" y="330" fill="black" stroke="none">44</text>
+  <line x1="306" y1="326" x2="273" y2="330"/>
+  <text x="88" y="330" fill="black" stroke="none">46</text>
+  <line x1="106" y1="326" x2="140" y2="330"/>
+  <text x="310" y="426" fill="black" stroke="none">48</text>
+  <line x1="306" y1="422" x2="273" y2="420"/>
+  <text x="88" y="426" fill="black" stroke="none">40</text>
+  <line x1="106" y1="422" x2="128" y2="410"/>
+
+  <!-- annotation: open bell inner diameter -->
+  <line x1="138" y1="400" x2="262" y2="400" stroke-width="0.7"/>
+  <path d="M138 400 l7 -3 v6 z" fill="black" stroke="none"/>
+  <path d="M262 400 l-7 -3 v6 z" fill="black" stroke="none"/>
+</svg>

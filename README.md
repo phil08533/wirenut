@@ -11,7 +11,7 @@
 
 | Folder | Contents |
 |---|---|
-| `/PATENT` | Novelty analysis, draft claim language, alternative embodiments, design-around and China IP strategy |
+| `/PATENT` | Novelty analysis, claim language, alternative embodiments, design-around and China IP strategy, and **`05_application_draft/`** — the complete filing-ready non-provisional application (specification, 20 claims, abstract, 8 figures, forms guide) with a step-by-step pro se Patent Center filing walkthrough |
 | `/ENGINEERING` | Concept trade study (Concepts A–D), selected product architecture, design calculations, materials specification |
 | `/CAD_REQUIREMENTS` | Part breakdown (BOM), critical dimensions and tolerances, drawing package requirements, preliminary parametric CAD model (OpenSCAD) |
 | `/MANUFACTURING` | Manufacturing plan (molding, tooling, assembly), China sourcing playbook, RFQ template, quality control plan |
@@ -29,6 +29,6 @@
 
 ## Critical-path warnings
 
-- **Provisional patent expires 12 months from filing.** A non-provisional (and ideally PCT covering China) must be filed before that date, and ideally before disclosure to any factory. See `/PATENT/04_design_around_and_ip_strategy.md`.
+- **Provisional patent expires 12 months from filing.** The non-provisional application is drafted and ready in `/PATENT/05_application_draft/` — follow `00_pro_se_filing_walkthrough.md` to file it yourself before that date, and ideally before disclosure to any factory.
 - **Never share this package with a Chinese supplier without a signed NNN agreement** (non-disclosure, non-use, non-circumvention, Chinese-law, Chinese-language). An ordinary US NDA is close to worthless in China.
 - **UL 486D (Sealed Wire Connector Systems) is the certification that makes this product sellable** through distribution in the US. Design decisions in this package are made with 486D requirements in mind.

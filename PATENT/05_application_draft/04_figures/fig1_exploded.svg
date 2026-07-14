@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 640" font-family="Arial" font-size="15" fill="none" stroke="black" stroke-width="1.5">
+  <text x="180" y="28" fill="black" stroke="none" font-size="18">FIG. 1</text>
+
+  <!-- ===== Wire connector 20 (top) ===== -->
+  <!-- cone body -->
+  <path d="M185 60 Q200 52 215 60 L232 168 L168 168 Z"/>
+  <!-- grip wings 32 -->
+  <path d="M178 92 L160 98 L166 140 L182 136"/>
+  <path d="M222 92 L240 98 L234 140 L218 136"/>
+  <!-- skirt band 30 -->
+  <rect x="165" y="168" width="70" height="22"/>
+  <!-- open end 24 (ellipse at mouth) -->
+  <ellipse cx="200" cy="190" rx="35" ry="7"/>
+  <!-- spring 28 hidden, dashed zigzag inside cone -->
+  <path d="M200 75 L191 90 L208 104 L192 120 L207 136 L193 152 L206 165" stroke-dasharray="4 3" stroke-width="1"/>
+  <!-- labels -->
+  <text x="300" y="70" fill="black" stroke="none">20</text>
+  <line x1="296" y1="66" x2="216" y2="70"/>
+  <text x="300" y="105" fill="black" stroke="none">22</text>
+  <line x1="296" y1="101" x2="226" y2="110"/>
+  <text x="120" y="112" fill="black" stroke="none">32</text>
+  <line x1="138" y1="108" x2="163" y2="112"/>
+  <text x="300" y="150" fill="black" stroke="none">28</text>
+  <line x1="296" y1="146" x2="206" y2="140"/>
+  <text x="112" y="182" fill="black" stroke="none">30</text>
+  <line x1="130" y1="178" x2="165" y2="178"/>
+  <text x="300" y="196" fill="black" stroke="none">24</text>
+  <line x1="296" y1="192" x2="236" y2="190"/>
+
+  <!-- ===== Sleeve 40 (middle, exploded below) ===== -->
+  <!-- outer tube -->
+  <rect x="150" y="250" width="100" height="150"/>
+  <ellipse cx="200" cy="250" rx="50" ry="10"/>
+  <ellipse cx="200" cy="400" rx="50" ry="10"/>
+  <!-- sealant lining 46 (dashed inner) -->
+  <rect x="158" y="254" width="84" height="144" stroke-dasharray="5 3" stroke-width="1"/>
+  <!-- first portion 42 / second portion 44 divider -->
+  <line x1="150" y1="288" x2="250" y2="288" stroke-dasharray="2 3" stroke-width="1"/>
+  <!-- labels -->
+  <text x="300" y="252" fill="black" stroke="none">40</text>
+  <line x1="296" y1="248" x2="251" y2="252"/>
+  <text x="300" y="280" fill="black" stroke="none">42</text>
+  <line x1="296" y1="276" x2="250" y2="272"/>
+  <text x="300" y="330" fill="black" stroke="none">44</text>
+  <line x1="296" y1="326" x2="250" y2="330"/>
+  <text x="96" y="330" fill="black" stroke="none">46</text>
+  <line x1="114" y1="326" x2="158" y2="330"/>
+  <text x="300" y="404" fill="black" stroke="none">48</text>
+  <line x1="296" y1="400" x2="251" y2="402"/>
+
+  <!-- ===== Conductors 50 (bottom) ===== -->
+  <g stroke-width="1.5">
+    <!-- wire 1 -->
+    <line x1="184" y1="470" x2="184" y2="600"/>
+    <line x1="194" y1="470" x2="194" y2="600"/>
+    <line x1="189" y1="452" x2="189" y2="470" stroke-width="1"/>
+    <!-- wire 2 -->
+    <line x1="206" y1="470" x2="206" y2="600"/>
+    <line x1="216" y1="470" x2="216" y2="600"/>
+    <line x1="211" y1="452" x2="211" y2="470" stroke-width="1"/>
+    <!-- wire 3 -->
+    <line x1="228" y1="478" x2="236" y2="606"/>
+    <line x1="238" y1="477" x2="246" y2="605"/>
+    <line x1="232" y1="460" x2="233" y2="478" stroke-width="1"/>
+  </g>
+  <text x="300" y="470" fill="black" stroke="none">52</text>
+  <line x1="296" y1="466" x2="234" y2="466"/>
+  <text x="300" y="520" fill="black" stroke="none">54</text>
+  <line x1="296" y1="516" x2="242" y2="520"/>
+  <text x="120" y="540" fill="black" stroke="none">50</text>
+  <line x1="138" y1="536" x2="184" y2="540"/>
+
+  <!-- assembly bracket 10 -->
+  <path d="M60 60 L48 60 L48 400 L60 400" stroke-width="1"/>
+  <text x="26" y="235" fill="black" stroke="none">10</text>
+</svg>

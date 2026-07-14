@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" font-family="Arial" font-size="15" fill="none" stroke="black" stroke-width="1.5">
+  <text x="180" y="28" fill="black" stroke="none" font-size="18">FIG. 5</text>
+
+  <defs>
+    <pattern id="hatch5" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="black" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- standard connector 20 in section -->
+  <path d="M185 60 L165 210 L173 210 L192 78 Z" fill="url(#hatch5)"/>
+  <path d="M215 60 L235 210 L227 210 L208 78 Z" fill="url(#hatch5)"/>
+  <path d="M185 60 Q200 50 215 60 L208 78 Q200 72 192 78 Z" fill="url(#hatch5)"/>
+  <rect x="160" y="210" width="12" height="26" fill="url(#hatch5)"/>
+  <rect x="228" y="210" width="12" height="26" fill="url(#hatch5)"/>
+
+  <!-- collar 80: section, gripping skirt with snap fingers 82 -->
+  <path d="M146 200 L146 252 L158 252 L158 244 L152 244 L152 208 L160 204 L160 198 Z" fill="black" stroke="none"/>
+  <path d="M254 200 L254 252 L242 252 L242 244 L248 244 L248 208 L240 204 L240 198 Z" fill="black" stroke="none"/>
+  <!-- snap finger tips hooking over skirt top -->
+  <path d="M160 198 L166 194" stroke-width="2"/>
+  <path d="M240 198 L234 194" stroke-width="2"/>
+  <!-- collar external anchor barb for sleeve -->
+  <path d="M146 226 L138 232 L146 238" stroke-width="2"/>
+  <path d="M254 226 L262 232 L254 238" stroke-width="2"/>
+
+  <!-- sleeve 40 retained on collar: tack over barb + open bell -->
+  <path d="M132 214 L132 256 L136 256 L136 214 Z" stroke-width="2"/>
+  <path d="M268 214 L268 256 L264 256 L264 214 Z" stroke-width="2"/>
+  <path d="M132 256 L114 282 L114 430"/>
+  <path d="M268 256 L286 282 L286 430"/>
+  <line x1="121" y1="286" x2="121" y2="426" stroke-dasharray="5 3" stroke-width="1"/>
+  <line x1="279" y1="286" x2="279" y2="426" stroke-dasharray="5 3" stroke-width="1"/>
+
+  <!-- centerline -->
+  <line x1="200" y1="45" x2="200" y2="450" stroke-dasharray="12 4 2 4" stroke-width="0.7"/>
+
+  <!-- labels -->
+  <text x="310" y="90" fill="black" stroke="none">20</text>
+  <line x1="306" y1="86" x2="226" y2="96"/>
+  <text x="96" y="222" fill="black" stroke="none">30</text>
+  <line x1="114" y1="218" x2="160" y2="220"/>
+  <text x="310" y="210" fill="black" stroke="none">82</text>
+  <line x1="306" y1="206" x2="242" y2="200"/>
+  <text x="310" y="248" fill="black" stroke="none">80</text>
+  <line x1="306" y1="244" x2="255" y2="240"/>
+  <text x="86" y="300" fill="black" stroke="none">40</text>
+  <line x1="104" y1="296" x2="114" y2="296"/>
+  <text x="310" y="330" fill="black" stroke="none">44</text>
+  <line x1="306" y1="326" x2="287" y2="330"/>
+  <text x="86" y="380" fill="black" stroke="none">46</text>
+  <line x1="104" y1="376" x2="120" y2="376"/>
+</svg>
