@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520" font-family="Arial" font-size="15" fill="none" stroke="black" stroke-width="1.5">
+  <text x="180" y="28" fill="black" stroke="none" font-size="18">FIG. 8</text>
+
+  <!-- connector elevation -->
+  <path d="M185 60 Q200 52 215 60 L232 168 L168 168 Z"/>
+  <path d="M178 92 L160 98 L166 140 L182 136"/>
+  <path d="M222 92 L240 98 L234 140 L218 136"/>
+  <rect x="165" y="168" width="70" height="22"/>
+
+  <!-- captive sleeve, shipped state (elevation) -->
+  <rect x="162" y="190" width="76" height="16" stroke-width="2.5"/>
+  <path d="M162 206 L134 230 L134 400"/>
+  <path d="M238 206 L266 230 L266 400"/>
+  <line x1="134" y1="400" x2="266" y2="400"/>
+
+  <!-- thermochromic indicator 90: stripe band on bell -->
+  <rect x="134" y="300" width="132" height="22" stroke-width="1"/>
+  <!-- stipple dots inside stripe -->
+  <g fill="black" stroke="none">
+    <circle cx="145" cy="308" r="1.2"/><circle cx="158" cy="314" r="1.2"/><circle cx="171" cy="306" r="1.2"/>
+    <circle cx="184" cy="313" r="1.2"/><circle cx="197" cy="307" r="1.2"/><circle cx="210" cy="315" r="1.2"/>
+    <circle cx="223" cy="306" r="1.2"/><circle cx="236" cy="313" r="1.2"/><circle cx="249" cy="308" r="1.2"/>
+    <circle cx="152" cy="318" r="1.2"/><circle cx="178" cy="318" r="1.2"/><circle cx="204" cy="318" r="1.2"/>
+    <circle cx="230" cy="318" r="1.2"/><circle cx="256" cy="316" r="1.2"/>
+  </g>
+
+  <!-- labels -->
+  <text x="300" y="120" fill="black" stroke="none">20</text>
+  <line x1="296" y1="116" x2="228" y2="120"/>
+  <text x="300" y="200" fill="black" stroke="none">42</text>
+  <line x1="296" y1="196" x2="239" y2="198"/>
+  <text x="300" y="260" fill="black" stroke="none">44</text>
+  <line x1="296" y1="256" x2="267" y2="260"/>
+  <text x="300" y="316" fill="black" stroke="none">90</text>
+  <line x1="296" y1="312" x2="267" y2="312"/>
+  <text x="92" y="316" fill="black" stroke="none">40</text>
+  <line x1="110" y1="312" x2="133" y2="312"/>
+</svg>
