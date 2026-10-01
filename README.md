@@ -17,7 +17,7 @@
 | `/MANUFACTURING` | Manufacturing plan (molding, tooling, assembly), China sourcing playbook, RFQ template, quality control plan |
 | `/TESTING` | Validation test plan (UL 486D-oriented), certification roadmap |
 | `/OPEN_QUESTIONS` | Questions the inventor must answer before CAD is finalized |
-| `/IMAGES` | Reference photos (existing sleeved connectors, installed appearance) |
+| `/IMAGES` | Prototype photos (AI-edited versions marked; originals to be added) |
 
 ## How to use this package
 
